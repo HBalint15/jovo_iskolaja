@@ -1,0 +1,26 @@
+body {
+    background-color: antiquewhite;
+}
+#tarolo {
+    background-color: rgb(22, 29, 29);
+    color: white;
+    width: 80%; /* width mindig százalékosan adjuk meg */
+    max-width: 800px;
+    margin: auto; /* a tároló a böngésző közepére kerül */
+    padding: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: greenyellow;
+    background-color: green;
+    border: 2px solid greenyellow;
+    padding: 10px 5px 10px 5px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#menu a:hover {
+    color: yellow;
+    background-color: orange;
+}
