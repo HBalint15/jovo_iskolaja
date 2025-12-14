@@ -1,5 +1,7 @@
-body {
-    background-color: rgb(86, 184, 135);
+body, html {
+    background-color: rgb(86, 86, 86);
+    margin-top: 1vh;
+    margin-bottom: 0;
 }
 #tarolo {
     background-color: rgb(22, 29, 29);
@@ -8,19 +10,46 @@ body {
     max-width: 800px;
     margin: auto; /* a tároló a böngésző közepére kerül */
     padding: 10px;
+    border: rgb(255, 255, 255) solid 2.5px;
+    border-radius: 25px;
+    min-height: 85vh;
 }
 
 #menu a {
     text-decoration: none;
-    color: greenyellow;
-    background-color: green;
-    border: 2px solid greenyellow;
+    color: white;
+    background-color: blue;
+    border: 2px solid white;
     padding: 10px 5px 10px 5px;
     margin: 10px;
     border-radius: 5px;
 }
 
 #menu a:hover {
-    color: yellow;
-    background-color: rgb(122, 122, 122);
+    color: white;
+    background-color: darkgrey;
+}
+footer {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    height: 100px;
+}
+footer a {
+    padding: 10px;
+    border: 2px white solid;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+footer a:hover {
+    color: white;
+    background-color: darkgrey;
+}
+h1 {
+    text-align: center;
 }
